@@ -44,3 +44,5 @@ print(f"The check digit is '{given_digit}'.")
 print("Calculating. . .")
 
 expected_digit: int = find_UPC(first11)
+
+print(f"The expected check digit is {expected_digit}.")
