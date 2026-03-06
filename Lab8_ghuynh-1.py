@@ -18,3 +18,5 @@ def find_UPC(first11: str) -> int:
             odd_num += digit
         else:
             even_num += digit
+        
+        total: int = (odd_num * 3) + even_num
