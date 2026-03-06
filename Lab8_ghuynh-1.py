@@ -34,3 +34,6 @@ while True:
         break
     else:
         print("Invalid input. Please enter exactly 12 numeric digits.")
+
+first11: str = upc[:11]
+given_digit: int = int(upc[11])
