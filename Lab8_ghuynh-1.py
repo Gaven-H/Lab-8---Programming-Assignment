@@ -40,3 +40,5 @@ given_digit: int = int(upc[11])
 
 print(f"The first 11 digits of the UPC-A are '{first11}'.")
 print(f"The check digit is '{given_digit}'.")
+
+print("Calculating. . .")
