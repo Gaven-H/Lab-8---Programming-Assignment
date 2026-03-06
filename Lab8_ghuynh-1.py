@@ -13,3 +13,8 @@ def find_UPC(first11: str) -> int:
 
     for num in range(len(first11)):
         digit: int = int(first11[num])
+
+        if num % 2 == 0:
+            odd_num += digit
+        else:
+            even_num += digit
