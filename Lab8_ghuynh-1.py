@@ -46,3 +46,8 @@ print("Calculating. . .")
 expected_digit: int = find_UPC(first11)
 
 print(f"The expected check digit is {expected_digit}.")
+
+if expected_digit == given_digit:
+    print("This is a VALID UPC.")
+else:
+    print("This is an INVALID UPC.")
