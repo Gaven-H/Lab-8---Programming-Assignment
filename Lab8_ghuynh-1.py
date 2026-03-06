@@ -29,3 +29,8 @@ upc: str
 
 while True:
     upc = input("Please enter a 12-digit UPC: ")
+
+    if len(upc) == 12 and upc.isdigit():
+        break
+    else:
+        print("Invalid input. Please enter exactly 12 numeric digits.")
