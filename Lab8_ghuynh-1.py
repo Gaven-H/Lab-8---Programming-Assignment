@@ -25,4 +25,4 @@ def find_UPC(first11: str) -> int:
 
         return check_digit
     
-upc = str
+upc: str
