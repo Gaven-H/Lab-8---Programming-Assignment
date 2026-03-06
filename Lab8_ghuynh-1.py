@@ -7,3 +7,6 @@ March 5, 2026
 """
 
 def find_UPC(first11: str) -> int:
+
+    odd_num = 0
+    even_num = 0
