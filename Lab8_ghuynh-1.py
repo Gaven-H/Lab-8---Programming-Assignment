@@ -20,3 +20,7 @@ def find_UPC(first11: str) -> int:
             even_num += digit
         
         total: int = (odd_num * 3) + even_num
+        
+        check_digit: int = (10 - (total % 10)) % 10
+
+        return check_digit
