@@ -26,3 +26,6 @@ def find_UPC(first11: str) -> int:
         return check_digit
     
 upc: str
+
+while True:
+    upc = input("Please enter a 12-digit UPC: ")
